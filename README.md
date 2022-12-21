@@ -45,7 +45,7 @@ Vamos a instalação:
 10. Saia do terminal e abra novamente o terminal;
 11. Digite ``echo $PATH`` ;
 12. Deve aparecer a mensagem ``/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/nomedoseucomputador/Library/Python/3.9/bin`` ;
-13. Pronto! O objetivo disso foi para não ter que precisar escrever o ``diretório+jupyter notebook`` toda vez que você for abrir o temrinal. Agora pode abrir o jupyter notebook digitando o único comando ``jupyter notebook``;
+13. Pronto! O objetivo disso foi para não ter que precisar escrever o ``diretório+jupyter notebook`` toda vez que você for abrir o terminal. Agora pode abrir o jupyter notebook digitando o único comando ``jupyter notebook``;
 14. Vai abrir uma nova janela web e enjoy it!
 15. Para sair do jupyter, basta apertar ``Control+C`` e depois dê enter em ``y`` no terminal ou clicar em ``Logout`` na web;
 16. Para fechar o terminal, aperte ``command+W``.
