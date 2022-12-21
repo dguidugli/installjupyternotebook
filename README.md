@@ -38,7 +38,7 @@ Vamos a instalação:
 3. Vamos ver qual é a variável do seu ambiente (PATH) digitando ``echo $PATH``;
 4. Provavelmente deve aparecer a mensagem ``usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin``;
 5. Execute este comando para padronizar o PATH ``nano .bash_profile`` ;
-6. Copie este comando export ``PATH=$PATH:~/Library/Python/3.9/bin`` e cole;
+6. Copie este comando ``export PATH=$PATH:~/Library/Python/3.9/bin`` e cole;
 7. Aperte o Control+O no teclado para confirmar a mudança do path;
 8. Aperte ENTER para finalizar a confirmação, Você verá a mensagem ``[Wrote NUMBER linhas]``;
 9. Aperte o ``Control+X`` para sair do nano;
