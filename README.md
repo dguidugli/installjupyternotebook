@@ -18,16 +18,20 @@ Vamos ao primeiro passo.
 
 <details><summary>II. INSTALAR PYTHON EM SEU MAC</summary>
 
-Normalmente o seu Mac vem com python instalado de forma nativa. Vamos verificar?
+Normalmente o seu Mac vem com python instalado de forma nativa. Vamos verificar? Tem que ser a última versão de Python que é o 3.x.
 
 1. No terminal (command+espaço), digite ``which python3``;
 2. O terminal deve retornar a mensagem ``/usr/bin/python3``, o que significa que já está instalado!
 </p>
 </details>
 
-<details><summary>III. INSTALAR O PIP E JUPYTER NOTEBOOK</summary>
+<details><summary>III. INSTALAR O JUPYTER NOTEBOOK USANDO O PIP</summary>
 
-Em vez de usar o Visual Code Studio para codar, prefiro o Jupyter Notebook por ser mais intuitivo e funciona no formato web. Vamos a instalação:
+Em vez de usar o Visual Code Studio para codar, prefiro o Jupyter Notebook por ser mais intuitivo e funciona no formato web. 
+
+Pip é um gerenciador de pacotes padrão usado para instalar e gerenciar pacotes de software escritos em Python. Normalmente vem de forma nativa no macOS e usaremos o pip para instalar o jupiter notebook.
+
+Vamos a instalação:
 
 1. No terminal, digite ``pip3 install jupyter``;
 2. Vai estar instalando e provavelmente vai acusar que o atual diretório não é um PATH;
