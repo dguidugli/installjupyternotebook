@@ -1,5 +1,7 @@
 # Instalar o Jupyter Notebook no macOS
-I. TROCAR O DEFAULT SHELL DE .ZSH PARA .BASH
+Clique nas setinhas para abrir o tópico.
+<details><summary>I. TROCAR O DEFAULT SHELL DE .ZSH PARA .BASH</summary>
+
 
 Hoje, o Mac usa o default shell como ``.zsh``. Eu, particularmente, prefiro o shell ``.bash`` por suportar várias funcionalidades. O primeiro passo seria trocar o shell de ``.zsh`` para ``.bash``.
 
@@ -11,15 +13,19 @@ Vamos ao primeiro passo.
 4. Digitar o comando ``chsh -s /bin/bash`` , *dica: ``chsh - s`` significa ``change shell``;
 5. Informe a senha do seu Mac e dê enter (é normal não aparecer a senha visivelmente);
 6. Pronto!
+</p>
+</details>
 
-II. INSTALAR PYTHON EM SEU MAC
+<details><summary>II. INSTALAR PYTHON EM SEU MAC</summary>
 
 Normalmente o seu Mac vem com python instalado de forma nativa. Vamos verificar?
 
 1. No terminal (command+espaço), digite ``which python3``;
 2. O terminal deve retornar a mensagem ``/usr/bin/python3``, o que significa que já está instalado!
+</p>
+</details>
 
-III. INSTALAR O PIP E JUPYTER NOTEBOOK
+<details><summary>III. INSTALAR O PIP E JUPYTER NOTEBOOK</summary>
 
 Em vez de usar o Visual Code Studio para codar, prefiro o Jupyter Notebook por ser mais intuitivo e funciona no formato web. Vamos a instalação:
 
@@ -39,11 +45,13 @@ Em vez de usar o Visual Code Studio para codar, prefiro o Jupyter Notebook por s
 14. Vai abrir uma nova janela web e enjoy it!
 15. Para sair do jupyter, basta apertar ``Control+C`` e depois dê enter em ``y`` no terminal ou clicar em ``Logout`` na web;
 16. Para fechar o terminal, aperte ``command+W``.
+</p>
+</details>
 
-
-IV. IMPORTAR A BIBLIOTECA DO SLACK
+<details><summary>IV. IMPORTAR A BIBLIOTECA DO SLACK</summary>
 
 Para você usar o bot do slack com Python, precisa usar a biblioteca do Slack. O Slack fornece uma API Python Slack rica para integração. Para importar via terminal, digite ``pip3 install slackclient``
 
-Agora é só usar a criatividade no jupyter notebook e dar o run!
-
+Agora é só usar a criatividade no jupyter notebook e dar o ``run``!
+</p>
+</details>
