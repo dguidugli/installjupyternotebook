@@ -13,6 +13,7 @@ Vamos ao primeiro passo.
 4. Digitar o comando ``chsh -s /bin/bash`` , *dica: ``chsh - s`` significa ``change shell``;
 5. Informe a senha do seu Mac e dê enter (é normal não aparecer a senha visivelmente);
 6. Pronto!
+7. Feche o terminal e abra novamente o terminal que já vai aparecer como .BASH!
 </p>
 </details>
 
